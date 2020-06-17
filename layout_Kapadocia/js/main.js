@@ -21,7 +21,7 @@ $(function() {
         fade: true, 
     });
    
-        $("#menu").on("click","a", function (event) {
+        $(".menu, .our-trip__body").on("click","a", function (event) {
             //отменяем стандартную обработку нажатия по ссылке
             event.preventDefault();
     
